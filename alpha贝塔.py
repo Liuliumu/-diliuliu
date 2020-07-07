@@ -26,7 +26,7 @@ if answer=='需要':
 else:
     print('好的，再见。')
 
-
+#华氏温度摄氏温度转换
 Apple=input(请输入代码)
 if Apple[-1] in ['F','f']:
     C=(eval(Apple[0:-1])-32)/1.8
