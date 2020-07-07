@@ -25,3 +25,14 @@ if answer=='需要':
             
 else:
     print('好的，再见。')
+
+
+Apple=input(请输入代码)
+if Apple[-1] in ['F','f']:
+    C=(eval(Apple[0:-1])-32)/1.8
+    print('{:.2f}C'.format(C))
+elif Apple[-1] in ['C','c']:
+    F=eval(Apple[0:-1])*1.8+32
+    print('{:.2f}F'.format(F))
+else:
+    print('输入格式错误')
